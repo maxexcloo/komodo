@@ -3,9 +3,8 @@ name = "komodo"
 
 [resource_sync.config]
 delete = true
-git_account = "komodo"
-include_user_groups = true
+git_account = "maxexcloo"
 include_variables = true
 managed = true
-repo = "komodo"
+repo = "maxexcloo/komodo"
 resource_path = ["."]
