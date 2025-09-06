@@ -1,0 +1,9 @@
+[[server]]
+description = "TrueNAS"
+name = "server-au-truenas"
+tags = ["komodo"]
+
+[server.config]
+address = "http://truenas.au.excloo.dev:8120"
+enabled = true
+region = "au"
