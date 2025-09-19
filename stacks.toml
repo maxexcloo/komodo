@@ -1,7 +1,7 @@
 [[stack]]
 description = "Caddy (server-au-kimbap)"
 name = "docker-caddy-server-au-kimbap"
-tags = ["no_dns", "docker"]
+tags = ["no_dns"]
 [stack.config]
 auto_update = true
 repo = "maxexcloo/komodo"
@@ -13,7 +13,7 @@ command = "sops decrypt -i docker-compose.yaml"
 [[stack]]
 description = "Caddy (server-au-mini)"
 name = "docker-caddy-server-au-mini"
-tags = ["no_dns", "docker"]
+tags = ["no_dns"]
 [stack.config]
 auto_update = true
 repo = "maxexcloo/komodo"
@@ -25,7 +25,7 @@ command = "sops decrypt -i docker-compose.yaml"
 [[stack]]
 description = "Caddy (server-au-truenas)"
 name = "docker-caddy-server-au-truenas"
-tags = ["no_dns", "docker"]
+tags = ["no_dns"]
 [stack.config]
 auto_update = true
 repo = "maxexcloo/komodo"
@@ -37,7 +37,7 @@ command = "sops decrypt -i docker-compose.yaml"
 [[stack]]
 description = "Caddy (vm-au-hsp)"
 name = "docker-caddy-vm-au-hsp"
-tags = ["no_dns", "docker"]
+tags = ["no_dns"]
 [stack.config]
 auto_update = true
 repo = "maxexcloo/komodo"
