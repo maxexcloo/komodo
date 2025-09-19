@@ -1,5 +1,6 @@
 [[resource_sync]]
 name = "komodo"
+
 [resource_sync.config]
 delete = true
 git_account = "maxexcloo"
