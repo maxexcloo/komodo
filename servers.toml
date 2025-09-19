@@ -1,38 +1,34 @@
 [[server]]
-description = "Kimbap (server-au-kimbap)"
+description = "Kimbap"
 name = "server-au-kimbap"
 tags = []
-
 [server.config]
 address = "kimbap.au.excloo.dev:8120"
 enabled = true
 region = "au"
 
 [[server]]
-description = "Mini (server-au-mini)"
+description = "Mini (AU)"
 name = "server-au-mini"
 tags = []
-
 [server.config]
 address = "mini.au.excloo.dev:8120"
 enabled = true
 region = "au"
 
 [[server]]
-description = "TrueNAS (server-au-truenas)"
+description = "TrueNAS (AU)"
 name = "server-au-truenas"
 tags = []
-
 [server.config]
 address = "truenas.au.excloo.dev:8120"
 enabled = true
 region = "au"
 
 [[server]]
-description = "HSP (vm-au-hsp)"
+description = "HSP"
 name = "vm-au-hsp"
 tags = []
-
 [server.config]
 address = "hsp.au.excloo.dev:8120"
 enabled = true
