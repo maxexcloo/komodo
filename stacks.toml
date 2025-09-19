@@ -1,0 +1,118 @@
+[[stack]]
+description = "Caddy"
+name = "docker-caddy-router-au"
+tags = ["no_dns", "docker"]
+
+[stack.config]
+auto_update = true
+repo = "maxexcloo/komodo"
+run_directory = "docker-caddy-router-au"
+server = "router-au"
+
+[stack.config.pre_deploy]
+command = "sops decrypt -i docker-compose.yaml"
+
+
+[[stack]]
+description = "Caddy"
+name = "docker-caddy-server-au-kimbap"
+tags = ["no_dns", "docker"]
+
+[stack.config]
+auto_update = true
+repo = "maxexcloo/komodo"
+run_directory = "docker-caddy-server-au-kimbap"
+server = "server-au-kimbap"
+
+[stack.config.pre_deploy]
+command = "sops decrypt -i docker-compose.yaml"
+
+
+[[stack]]
+description = "Caddy"
+name = "docker-caddy-server-au-mini"
+tags = ["no_dns", "docker"]
+
+[stack.config]
+auto_update = true
+repo = "maxexcloo/komodo"
+run_directory = "docker-caddy-server-au-mini"
+server = "server-au-mini"
+
+[stack.config.pre_deploy]
+command = "sops decrypt -i docker-compose.yaml"
+
+
+[[stack]]
+description = "Caddy"
+name = "docker-caddy-server-au-pikvm"
+tags = ["no_dns", "docker"]
+
+[stack.config]
+auto_update = true
+repo = "maxexcloo/komodo"
+run_directory = "docker-caddy-server-au-pikvm"
+server = "server-au-pikvm"
+
+[stack.config.pre_deploy]
+command = "sops decrypt -i docker-compose.yaml"
+
+
+[[stack]]
+description = "Caddy"
+name = "docker-caddy-server-au-truenas"
+tags = ["no_dns", "docker"]
+
+[stack.config]
+auto_update = true
+repo = "maxexcloo/komodo"
+run_directory = "docker-caddy-server-au-truenas"
+server = "server-au-truenas"
+
+[stack.config.pre_deploy]
+command = "sops decrypt -i docker-compose.yaml"
+
+
+[[stack]]
+description = "Caddy"
+name = "docker-caddy-vm-au-haos"
+tags = ["no_dns", "docker"]
+
+[stack.config]
+auto_update = true
+repo = "maxexcloo/komodo"
+run_directory = "docker-caddy-vm-au-haos"
+server = "vm-au-haos"
+
+[stack.config.pre_deploy]
+command = "sops decrypt -i docker-compose.yaml"
+
+
+[[stack]]
+description = "Caddy"
+name = "docker-caddy-vm-au-hsp"
+tags = ["no_dns", "docker"]
+
+[stack.config]
+auto_update = true
+repo = "maxexcloo/komodo"
+run_directory = "docker-caddy-vm-au-hsp"
+server = "vm-au-hsp"
+
+[stack.config.pre_deploy]
+command = "sops decrypt -i docker-compose.yaml"
+
+
+[[stack]]
+description = "Caddy"
+name = "docker-caddy-vm-us-hotdog"
+tags = ["no_dns", "docker"]
+
+[stack.config]
+auto_update = true
+repo = "maxexcloo/komodo"
+run_directory = "docker-caddy-vm-us-hotdog"
+server = "vm-us-hotdog"
+
+[stack.config.pre_deploy]
+command = "sops decrypt -i docker-compose.yaml"
