@@ -1,5 +1,5 @@
 [[stack]]
-description = "Caddy"
+description = "Caddy (router-au)"
 name = "docker-caddy-router-au"
 tags = ["no_dns", "docker"]
 
@@ -12,9 +12,8 @@ server = "router-au"
 [stack.config.pre_deploy]
 command = "sops decrypt -i docker-compose.yaml"
 
-
 [[stack]]
-description = "Caddy"
+description = "Caddy (server-au-kimbap)"
 name = "docker-caddy-server-au-kimbap"
 tags = ["no_dns", "docker"]
 
@@ -27,9 +26,8 @@ server = "server-au-kimbap"
 [stack.config.pre_deploy]
 command = "sops decrypt -i docker-compose.yaml"
 
-
 [[stack]]
-description = "Caddy"
+description = "Caddy (server-au-mini)"
 name = "docker-caddy-server-au-mini"
 tags = ["no_dns", "docker"]
 
@@ -42,9 +40,8 @@ server = "server-au-mini"
 [stack.config.pre_deploy]
 command = "sops decrypt -i docker-compose.yaml"
 
-
 [[stack]]
-description = "Caddy"
+description = "Caddy (server-au-pikvm)"
 name = "docker-caddy-server-au-pikvm"
 tags = ["no_dns", "docker"]
 
@@ -57,9 +54,8 @@ server = "server-au-pikvm"
 [stack.config.pre_deploy]
 command = "sops decrypt -i docker-compose.yaml"
 
-
 [[stack]]
-description = "Caddy"
+description = "Caddy (server-au-truenas)"
 name = "docker-caddy-server-au-truenas"
 tags = ["no_dns", "docker"]
 
@@ -72,9 +68,8 @@ server = "server-au-truenas"
 [stack.config.pre_deploy]
 command = "sops decrypt -i docker-compose.yaml"
 
-
 [[stack]]
-description = "Caddy"
+description = "Caddy (vm-au-haos)"
 name = "docker-caddy-vm-au-haos"
 tags = ["no_dns", "docker"]
 
@@ -87,9 +82,8 @@ server = "vm-au-haos"
 [stack.config.pre_deploy]
 command = "sops decrypt -i docker-compose.yaml"
 
-
 [[stack]]
-description = "Caddy"
+description = "Caddy (vm-au-hsp)"
 name = "docker-caddy-vm-au-hsp"
 tags = ["no_dns", "docker"]
 
@@ -102,9 +96,8 @@ server = "vm-au-hsp"
 [stack.config.pre_deploy]
 command = "sops decrypt -i docker-compose.yaml"
 
-
 [[stack]]
-description = "Caddy"
+description = "Caddy (vm-us-hotdog)"
 name = "docker-caddy-vm-us-hotdog"
 tags = ["no_dns", "docker"]
 
