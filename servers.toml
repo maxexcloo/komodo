@@ -21,7 +21,7 @@ description = "TrueNAS (AU)"
 name = "server-au-truenas"
 tags = []
 [server.config]
-address = "https://truenas.au.excloo.dev:8120"
+address = "https://periphery:8120"
 enabled = true
 region = "au"
 
