@@ -8,7 +8,7 @@ repo = "maxexcloo/komodo"
 run_directory = "docker-caddy-server-au-kimbap"
 server = "server-au-kimbap"
 [stack.config.pre_deploy]
-command = "sops decrypt -i compose.yaml"
+command = "SOPS_AGE_KEY=[[AGE_SECRET_KEY]] sops decrypt -i compose.yaml"
 
 [[stack]]
 description = "Caddy (server-au-mini)"
@@ -20,7 +20,7 @@ repo = "maxexcloo/komodo"
 run_directory = "docker-caddy-server-au-mini"
 server = "server-au-mini"
 [stack.config.pre_deploy]
-command = "sops decrypt -i compose.yaml"
+command = "SOPS_AGE_KEY=[[AGE_SECRET_KEY]] sops decrypt -i compose.yaml"
 
 [[stack]]
 description = "Caddy (server-au-truenas)"
@@ -32,7 +32,7 @@ repo = "maxexcloo/komodo"
 run_directory = "docker-caddy-server-au-truenas"
 server = "server-au-truenas"
 [stack.config.pre_deploy]
-command = "sops decrypt -i compose.yaml"
+command = "SOPS_AGE_KEY=[[AGE_SECRET_KEY]] sops decrypt -i compose.yaml"
 
 [[stack]]
 description = "Caddy (vm-au-hsp)"
@@ -44,4 +44,4 @@ repo = "maxexcloo/komodo"
 run_directory = "docker-caddy-vm-au-hsp"
 server = "vm-au-hsp"
 [stack.config.pre_deploy]
-command = "sops decrypt -i compose.yaml"
+command = "SOPS_AGE_KEY=[[AGE_SECRET_KEY]] sops decrypt -i compose.yaml"
