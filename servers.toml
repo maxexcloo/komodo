@@ -1,6 +1,6 @@
 [[server]]
 description = "Mini (AU)"
-name = "server-au-mini"
+name = "au-mini"
 tags = []
 [server.config]
 address = "https://mini.au.excloo.dev:8120"
@@ -9,7 +9,7 @@ region = "au"
 
 [[server]]
 description = "TrueNAS (AU)"
-name = "server-au-truenas"
+name = "au-truenas"
 tags = []
 [server.config]
 address = "https://truenas.au.excloo.dev:8120"
@@ -18,7 +18,7 @@ region = "au"
 
 [[server]]
 description = "HSP (AU)"
-name = "vm-au-hsp"
+name = "au-hsp"
 tags = []
 [server.config]
 address = "https://hsp.au.excloo.dev:8120"
