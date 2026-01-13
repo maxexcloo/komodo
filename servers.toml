@@ -1,13 +1,4 @@
 [[server]]
-description = "Mini (AU)"
-name = "au-mini"
-tags = []
-[server.config]
-address = "https://mini.au.excloo.dev:8120"
-enabled = true
-region = "au"
-
-[[server]]
 description = "TrueNAS (AU)"
 name = "au-truenas"
 tags = []
