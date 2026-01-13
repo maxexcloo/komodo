@@ -11,18 +11,6 @@ server = "au-hsp"
 command = "SOPS_AGE_KEY=[[AGE_SECRET_KEY]] sops decrypt -i compose.yaml"
 
 [[stack]]
-description = "Caddy (au-mini)"
-name = "caddy-au-mini"
-tags = ["no_dns"]
-[stack.config]
-auto_update = true
-repo = "maxexcloo/komodo"
-run_directory = "caddy-au-mini"
-server = "au-mini"
-[stack.config.pre_deploy]
-command = "SOPS_AGE_KEY=[[AGE_SECRET_KEY]] sops decrypt -i compose.yaml"
-
-[[stack]]
 description = "Caddy (au-truenas)"
 name = "caddy-au-truenas"
 tags = ["no_dns"]
