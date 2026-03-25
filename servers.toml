@@ -1,0 +1,8 @@
+[[server]]
+name = "au-hsp"
+description = "HSP (AU)"
+
+[server.config]
+address = "https://hsp.au.excloo.dev:8120"
+enabled = true
+region = "au"
