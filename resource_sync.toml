@@ -1,0 +1,9 @@
+[[resource_sync]]
+name = "komodo"
+
+[resource_sync.config]
+delete = true
+git_account = "maxexcloo"
+managed = true
+repo = "maxexcloo/komodo"
+resource_path = ["."]
