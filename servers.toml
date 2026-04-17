@@ -1,6 +1,6 @@
 [[server]]
 name = "au-hsp"
-description = "HSP (AU)"
+description = "HSP"
 
 [server.config]
 address = "https://hsp.au.excloo.dev:8120"
