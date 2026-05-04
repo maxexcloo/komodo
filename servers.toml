@@ -6,4 +6,3 @@ name = "au-hsp"
 address = "https://hsp.au.excloo.dev:8120"
 enabled = true
 region = "au"
-
