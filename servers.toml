@@ -1,8 +1,63 @@
 [[server]]
+description = "AU"
+name = "au"
+
+[server.config]
+address = "https://au.excloo.dev:8120"
+enabled = true
+passkey = "VN6Wg35adDpF2AIHujzHHcGrVxhWoUsM"
+region = "au"
+[[server]]
+description = "Bazzite (AU)"
+name = "au-bazzite"
+
+[server.config]
+address = "https://bazzite.au.excloo.dev:8120"
+enabled = true
+passkey = "Bsp7sZNfeEM8NBPuOedMvvzKwpNtEW7i"
+region = "au"
+[[server]]
+description = "HAOS (AU)"
+name = "au-haos"
+
+[server.config]
+address = "https://haos.au.excloo.dev:8120"
+enabled = true
+passkey = "1D7Q5oGz2z8AgaxDI02dUEK8VN5g3dDa"
+region = "au"
+[[server]]
 description = "HSP"
 name = "au-hsp"
 
 [server.config]
 address = "https://hsp.au.excloo.dev:8120"
 enabled = true
+passkey = "D72vmZpmdLTvYCpQS3R0X2n6ROgTozrw"
 region = "au"
+[[server]]
+description = "Malatang (AU)"
+name = "au-malatang"
+
+[server.config]
+address = "https://malatang.au.excloo.dev:8120"
+enabled = true
+passkey = "cZIfbvkT1GqnG3hdJtyOIDhyvZ28wX6p"
+region = "au"
+[[server]]
+description = "TrueNAS (AU)"
+name = "au-truenas"
+
+[server.config]
+address = "https://truenas.au.excloo.dev:8120"
+enabled = true
+passkey = "h0Oh9t2Jei2J8wvTze2QeEdkcbuEBAHJ"
+region = "au"
+[[server]]
+description = "Hotdog"
+name = "us-hotdog"
+
+[server.config]
+address = "https://hotdog.us.excloo.dev:8120"
+enabled = true
+passkey = "xVO7hQd3BqEgeg44bwJ7GmnBKBpfl5Di"
+region = "us"
