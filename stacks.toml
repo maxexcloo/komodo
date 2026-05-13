@@ -1,4 +1,16 @@
 [[stack]]
+description = "Beszel Agent"
+name = "beszel-agent-au-hsp"
+
+[stack.config]
+auto_update = true
+repo = "excloo/komodo"
+run_directory = "beszel-agent-au-hsp"
+server = "au-hsp"
+
+[stack.config.pre_deploy]
+command = "export SOPS_AGE_KEY=[[AGE_SECRET_KEY]] && find . \\( -name '*.yaml' -o -name '*.toml' \\) -exec sops decrypt -i {} \\;"
+[[stack]]
 description = "Komodo Periphery"
 name = "komodo-periphery-au-hsp"
 
